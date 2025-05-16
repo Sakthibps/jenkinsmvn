@@ -33,8 +33,10 @@ public class UITest
 		}
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		System.out.println("Browser opened");
 		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
 		driver.quit();
+		System.out.println("Browser closed");
 	}
 	
 	
