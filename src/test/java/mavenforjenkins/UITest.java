@@ -16,8 +16,8 @@ public class UITest
 	public void startBrowser(String browserName)
 	{
 		System.out.println("Parameter value is "+browserName);
+		//System.out.println("GIT commit from Jira");
 		System.out.println("GIT commit from Jira");
-		System.out.println("GIT commit from Jira for scrum 6");
 		WebDriver driver=null;
 		
 		if(browserName.contains("Chrome"))
